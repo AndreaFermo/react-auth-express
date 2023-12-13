@@ -20,7 +20,7 @@ const instance = axios.create({
     function (error) {
       if (error.response.status === 500) {
     
-        //window.location = "/";
+        window.location = "/";
       }
       return Promise.reject(error);
     }
